@@ -1,10 +1,6 @@
-import random
+from weapon import Weapon
 
 class Ability:
-    def __init__(self, name, max_damage):
-        self.name = name
-        self.max_damage = max_damage
-    
-    def attack(self):
-        random_value = random.randint(0, self.max_damage)
-        return random_value
+    def __init__(self, name, damage, mana):
+        super().__init__(name, damage)
+        self.mana = mana
