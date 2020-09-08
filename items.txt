@@ -1,0 +1,7 @@
+ABILITIES
+Fireball, 50
+
+ARMORS
+
+
+WEAPONS
